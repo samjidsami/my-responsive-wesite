@@ -39,6 +39,9 @@ height: 438px;
 padding-top: 110px;
 padding-left: 80px;
 }
+.banner:hover{
+    transform: rotate(60);
+}
 /* main item style */
 .main-item{
     display: grid;
@@ -58,5 +61,35 @@ margin-left: 110px;}
     width: 350px;
     border: 1px;
    box-shadow: 10px;}
+
+   /* footer style */
+   .logo img{
+       height: 100px;
+       width: 150px;
+       margin-top: 50px;
+       margin-left: 580px;}
+       .icon-item{
+           display: flex;
+           justify-content: center;
+       }
+       .icon img{
+           height: 30px;
+           width: 30px;
+       }
+    
+   
+   footer{
+       text-align: center;
+   }
+   /* media queri / mobile device */
+   @media only screen and (max-width:688px) {
+       .header-title{
+           width: 100%;
+       }
+    .player{
+           grid-template-columns: repeat(1 1fr);
+       }
+       
+   }
 
 
